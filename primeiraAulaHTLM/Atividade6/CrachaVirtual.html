@@ -12,21 +12,32 @@
 <body class="container p-5">
     <main>
         <h1>Chachá Virtual</h1>
-        <div class="container mb-3">
 
+        <div class="container mb-3">
             <label class="form-label" for="nome">Digite seu nome:</label>
             <input class="form-control p-3" type="text" id="nome">
-
         </div>
 
-            <label class="form-label" for="nome">Digite sua idade:</label>
+        <div class="container mb-3">
+            <label class="form-label" for="nome">Digite sua data de nascimento:</label>
+            <input class="form-control p-3" type="text" id="data de nascimento">
+        </div>
+
+        <div class="container mb-3">
             <label class="form-label" for="nome">Digite seu cargo:</label>
-            <label class="form-label" for="nome">Digite seu departamento:</label>
-            <label class="form-label" for="nome">Possui acesso Regsitro:</label>
-            <input class="form-control p-3" type="text" id="nome">
-
+            <input class="form-control p-3" type="text" id="cargo">
         </div>
 
+        <div class="container mb-3">
+            <label class="form-label" for="nome">Possui acesso registro:</label>
+            <input class="form-control p-3" type="text" id="registro">
+        </div>  
+        
+        <div class="container mb-3">
+            <label class="form-label" for="nome">tem acesso restrito:</label>
+            <input class="form-check-input" type="checkbox" id="registro">
+        </div>   
+            
         <!-- Adicionado os parênteses () no onclick -->
         <button class="btn btn-primary" onclick="imprimirNome()">Enviar dados</button>
 
