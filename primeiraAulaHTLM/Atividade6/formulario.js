@@ -51,15 +51,9 @@ const departamento = document.getElementById("departamento").value;
 console.log("Departamento do funcionário (String):", departamento);
 }
 
-window.alert {
-    "Cadastro do funcionário realizado com sucesso!\n\n +
-    "Dados do funcionário:\n" +;
-    "Nome: " + nome + "\n" +
-    "Idade: " + idade + "\n" +
-    "Cargo: " + cargo + "\n" +
-    "Departamento: " + departamento + "\n" +
-    "Tem acesso restrito? " + temAcessoRestrito;
-}
+// Nota: el bloque anterior contenía sintaxis inválida y variables fuera de alcance.
+// Si se desea mostrar un resumen detallado, la función cadastrarFuncionario ya muestra
+// una alerta y registra los datos en la consola.
 
 // Disponibiliza as funções para uso no arquivo crachá virtual.html
 window.cadastrarFuncionario = cadastrarFuncionario;
