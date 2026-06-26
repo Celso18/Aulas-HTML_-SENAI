@@ -20,8 +20,29 @@
         <button onclick="multiplicacao()">MULTIPLICAÇÃO</button>
         <button onclick="divisao()">DIVISÃO</button>
         <br>
-        <p>Seu resultado é: <strong id="resultado"></strong></p>
+          <p>Seu resultado é: <strong id="resultado"></strong></p>
+        <br>
+      <br>
+      <button onclick="apagarLocalStorage()"> Apagar histórico</button>
+      <button onclick="exibirHistorico()"> Exibir histórico</button>
+      <button onclick="valorProduto()"> Valor do produto</button>
+      
+      <br>
+
+      <script>
+        function valorProduto() {
+          const valor = prompt("Digite o valor do produto:");
+          if (valor !== null) {
+            document.getElementById('valor-produto').textContent = valor
+          }
+        }
+
+      </script>
+    
         <script src="js/funcoes.js"></script>
+
+        <main>
+        <h1>Cálculo do imposto de importação</h1>
     </main>
 </body>
 </html>
