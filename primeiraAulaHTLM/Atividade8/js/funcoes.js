@@ -119,7 +119,7 @@ function salvarHistorico(nomeDaFuncao, num1, num2, resultado) {
         historicoImpostoLocal.push(imposto);
 
         localStorage.setItem("historicoImpostos", JSON.stringify(historicoImpostoLocal));
-        console.table(historico);
+        console.table(historicoImpostoLocal);
     }
  
     
